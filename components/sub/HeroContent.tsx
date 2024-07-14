@@ -46,14 +46,16 @@ const HeroContent = () => {
           className="text-xl text-gray-300 my-1 max-w-[600px]"
         >
           who loves to explore new things with a blend of creativity and logic. 
-          I mostly create websites for small and medium-sized enterprises. 
-          Check out my projects and skills.
+          I mostly create websites for small and medium-sized enterprises. Check
+          out my projects and skills.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 mt-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Hire me!
+          <a href="https://www.linkedin.com/in/neil-nicholas/" target="_blank">
+            Hire me!
+          </a>
         </motion.a>
       </div>
 
