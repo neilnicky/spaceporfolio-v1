@@ -15,38 +15,44 @@ const Projects = () => {
           src="/casecobra.png"
           title="Case Cobra"
           description="Turn your image into beautiful custom phone cover. Also after amazing customization you can place order through Stripe payment system."
-          href="https://case-cobra-rho.vercel.app/"
+          href="https://github.com/neilnicky"
         />
         <ProjectCard
           src="/brainwave.png"
           title="Brainwave Ai"
-          description="Modern Next.js Landing page of a AI application. "
+          description="Modern Next.js Landing page of a AI application."
+          href="https://github.com/neilnicky"
         />
         <ProjectCard
           src="/nike.png"
           title="Nike Shoe Website"
           description="Beautiful and minimilistic Nike website that you can browse different shoes and customize the colours and size."
+          href="https://github.com/neilnicky"
         />
         <ProjectCard
           src="/hoobank.png"
           title="Hoo Bank"
           description="The next generation payment method - modern kind of landing page."
+          href="https://github.com/neilnicky"
         />
 
         <ProjectCard
           src="/gpt3.png"
           title="GPT-3 OpenAI"
           description="A brief description about the most exciting OpenAi powered GPT-3 bot."
+          href="https://github.com/neilnicky"
         />
         <ProjectCard
           src="/gemini.png"
           title="Google Gemini Clone"
           description="Clone of Google Gemini that uses the authentic Gemini API to interact with users in real time."
+          href="https://github.com/neilnicky"
         />
         <ProjectCard
           src="/gerich.png"
           title="Restaurant Landing Page"
           description="Landing page for a Russian restuarant."
+          href="https://github.com/neilnicky"
         />
       </div>
     </div>
