@@ -5,7 +5,7 @@ interface Props {
   src: string;
   title: string;
   description: string;
-  href?: string
+  href?: string;
 }
 
 const ProjectCard = ({ src, title, description, href }: Props) => {
@@ -21,7 +21,8 @@ const ProjectCard = ({ src, title, description, href }: Props) => {
 
       <div className="relative p-4">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
-        <a href={href} className="mt-2 text-gray-300">{description}</a>
+        <p className="mt-2 text-gray-300">{description}</p>
+        <a href={href}>🔗</a>
       </div>
     </div>
   );
