@@ -9,6 +9,7 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroContent = () => {
   return (
@@ -53,9 +54,9 @@ const HeroContent = () => {
           variants={slideInFromLeft(1)}
           className="py-2 mt-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          <a href="https://www.linkedin.com/in/neil-nicholas/" target="_blank">
-            Hire me!
-          </a>
+          <Link href="https://github.com/neilnicky" target="_blank">
+            Resume🔗
+          </Link>
         </motion.a>
       </div>
 
