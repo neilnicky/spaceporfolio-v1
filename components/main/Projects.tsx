@@ -15,13 +15,13 @@ const Projects = () => {
           src="/casecobra.png"
           title="Case Cobra"
           description="Turn your image into beautiful custom phone cover. Also after amazing customization you can place order through Stripe payment system."
-          href="https://github.com/neilnicky"
+          href="https://case-cobra-rho.vercel.app/"
         />
         <ProjectCard
           src="/brainwave.png"
           title="Brainwave Ai"
           description="Modern Next.js Landing page of a AI application."
-          href="https://github.com/neilnicky"
+          href="https://brainwave-mauve-psi.vercel.app/"
         />
         <ProjectCard
           src="/nike.png"
